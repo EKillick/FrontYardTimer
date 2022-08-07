@@ -11,14 +11,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <p id="timer"></p>
-        <p id="laps"></p>
+        <div class="timer">
+            <button type="button" id="startButton"> Start </button>
+            <button type="button" id="stopButton"> Stop </button>
+            <p id="clock"></p><br>
+            <p id="timer"></p><br>
+            <p id="laps"></p>
+        </div>
 
         <script src="script.js" async defer></script>
     </body>
