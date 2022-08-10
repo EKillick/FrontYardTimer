@@ -1,4 +1,4 @@
-const startingMinutes = 2;
+const startingMinutes = 30;
 var newStartingMinutes = startingMinutes;
 var timeRemaining = newStartingMinutes * 60;
 var displaySeconds = 0;
